@@ -184,6 +184,62 @@
     </div>
   </section>
 
+  <!-- VISUAL PROOF — Health Trajectory -->
+  <section class="bg-surface">
+    <div class="max-w-[1280px] mx-auto px-5 md:px-[52px] py-24 md:py-32">
+      <div class="grid gap-12 md:grid-cols-2 items-center">
+        <div class="reveal-left">
+          <p class="text-primary text-sm font-medium">Health Trajectory</p>
+          <h2 class="mt-3 font-heading text-[clamp(1.75rem,3.5vw,2.25rem)] font-medium text-dark leading-[1.2] tracking-[-0.03em]">See exactly where your client stands</h2>
+          <p class="mt-4 text-body leading-relaxed">The polar chart gives you and your client an instant picture of their health. Low scores stand out immediately, so you know where to focus — and over time, you can track real improvement.</p>
+          <div class="mt-8 flex items-center gap-6">
+            <span class="flex items-center gap-2 text-sm text-muted">
+              <span class="inline-block h-3 w-3 rounded-full border border-muted/60 bg-muted/15"></span>
+              Initial assessment
+            </span>
+            <span class="flex items-center gap-2 text-sm text-dark">
+              <span class="inline-block h-3 w-3 rounded-full border border-primary bg-primary/15"></span>
+              After 3 months
+            </span>
+          </div>
+        </div>
+        <div class="reveal-right flex justify-center">
+          <svg viewBox="0 0 300 300" class="w-full max-w-[280px]">
+            <!-- Grid hexagons -->
+            <polygon points="150,95 198,123 198,178 150,205 102,178 102,123" fill="none" stroke="#e5e7eb" stroke-width="0.5"/>
+            <polygon points="150,68 221,109 221,191 150,233 79,191 79,109" fill="none" stroke="#e5e7eb" stroke-width="0.5"/>
+            <polygon points="150,40 245,95 245,205 150,260 55,205 55,95" fill="none" stroke="#e5e7eb" stroke-width="0.75"/>
+            <!-- Axes -->
+            <line x1="150" y1="150" x2="150" y2="40" stroke="#e5e7eb" stroke-width="0.5"/>
+            <line x1="150" y1="150" x2="245" y2="95" stroke="#e5e7eb" stroke-width="0.5"/>
+            <line x1="150" y1="150" x2="245" y2="205" stroke="#e5e7eb" stroke-width="0.5"/>
+            <line x1="150" y1="150" x2="150" y2="260" stroke="#e5e7eb" stroke-width="0.5"/>
+            <line x1="150" y1="150" x2="55" y2="205" stroke="#e5e7eb" stroke-width="0.5"/>
+            <line x1="150" y1="150" x2="55" y2="95" stroke="#e5e7eb" stroke-width="0.5"/>
+            <!-- Before data (muted, dashed) -->
+            <polygon points="150,117 174,136 193,175 150,172 117,169 112,128" fill="rgba(160,160,160,0.06)" stroke="#a0a0a0" stroke-width="1" stroke-dasharray="4 2"/>
+            <!-- After data (primary, solid) -->
+            <polygon points="150,64 219,110 231,197 150,227 74,194 79,109" fill="rgba(0,104,255,0.06)" stroke="#0068ff" stroke-width="1.5" stroke-linejoin="round"/>
+            <!-- After data points -->
+            <circle cx="150" cy="64" r="3" fill="#0068ff"/>
+            <circle cx="219" cy="110" r="3" fill="#0068ff"/>
+            <circle cx="231" cy="197" r="3" fill="#0068ff"/>
+            <circle cx="150" cy="227" r="3" fill="#0068ff"/>
+            <circle cx="74" cy="194" r="3" fill="#0068ff"/>
+            <circle cx="79" cy="109" r="3" fill="#0068ff"/>
+            <!-- Labels -->
+            <text x="150" y="28" text-anchor="middle" fill="#595959" font-size="11" font-family="Inter,sans-serif">Energy</text>
+            <text x="256" y="93" text-anchor="start" fill="#595959" font-size="11" font-family="Inter,sans-serif">Sleep</text>
+            <text x="256" y="211" text-anchor="start" fill="#595959" font-size="11" font-family="Inter,sans-serif">Digestion</text>
+            <text x="150" y="280" text-anchor="middle" fill="#595959" font-size="11" font-family="Inter,sans-serif">Stress</text>
+            <text x="44" y="211" text-anchor="end" fill="#595959" font-size="11" font-family="Inter,sans-serif">Nutrition</text>
+            <text x="44" y="93" text-anchor="end" fill="#595959" font-size="11" font-family="Inter,sans-serif">Hydration</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- THE PLATFORM -->
   <section id="platform" class="scroll-mt-20 bg-surface">
     <div class="max-w-[1280px] mx-auto px-5 md:px-[52px] py-24 md:py-32">
@@ -247,60 +303,6 @@
           <span class="inline-flex items-center justify-center h-10 w-10 rounded-full bg-primary text-white text-sm font-semibold">3</span>
           <h3 class="mt-6 font-heading text-xl text-dark font-medium">Track &amp; Guide</h3>
           <p class="mt-3 text-sm text-body leading-relaxed">Monitor your client's progress with visual snapshots over time. Guide their journey with data-driven insights.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- COMPREHENSIVE CARE -->
-  <section class="bg-surface">
-    <div class="max-w-[1280px] mx-auto px-5 md:px-[52px] py-24 md:py-32">
-      <div class="grid gap-5 md:grid-cols-2">
-        <!-- Left: Info -->
-        <div class="reveal-left rounded-[32px] bg-light p-8 md:p-12 flex flex-col justify-between">
-          <div>
-            <p class="text-primary text-sm font-medium">Health Data Lab</p>
-            <h2 class="mt-3 font-heading text-[clamp(1.75rem,3.5vw,2.25rem)] font-medium text-dark leading-[1.2] tracking-[-0.03em]">Built from 15 years of holistic health experience</h2>
-            <p class="mt-4 text-body leading-relaxed">From IRISLAB.com to HealthDataLab&nbsp;&mdash; two decades of building tools for natural health practitioners. We understand that every client is a unique tapestry of genetics, lifestyle, and health history.</p>
-          </div>
-          <div class="mt-10 flex items-end gap-6">
-            <div>
-              <p class="counter font-heading text-4xl font-semibold text-dark" data-target="20">0</p>
-              <p class="text-sm text-muted mt-1">Founder seats</p>
-            </div>
-            <div class="h-12 w-px bg-stroke"></div>
-            <div>
-              <p class="counter font-heading text-4xl font-semibold text-dark" data-target="2026">0</p>
-              <p class="text-sm text-muted mt-1">Launch year</p>
-            </div>
-          </div>
-        </div>
-        <!-- Right: feature list -->
-        <div class="reveal-right flex flex-col gap-5">
-          <div class="rounded-[32px] bg-light p-8 group hover:bg-primary transition-colors duration-300">
-            <h3 class="font-heading text-lg text-dark font-medium group-hover:text-white transition-colors duration-300">Consultation Management</h3>
-            <p class="mt-2 text-sm text-body leading-relaxed group-hover:text-white/70 transition-colors duration-300">Secure, efficient, and organised client consultations at your fingertips.</p>
-            <a href="#founder-access" class="mt-4 inline-flex items-center gap-1 text-sm text-primary font-medium group-hover:text-white transition-colors duration-300">
-              Learn more
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
-            </a>
-          </div>
-          <div class="rounded-[32px] bg-light p-8 group hover:bg-primary transition-colors duration-300">
-            <h3 class="font-heading text-lg text-dark font-medium group-hover:text-white transition-colors duration-300">Practitioner Assistants</h3>
-            <p class="mt-2 text-sm text-body leading-relaxed group-hover:text-white/70 transition-colors duration-300">Your holistic expertise augmented with a virtual assistant designed to streamline communication and client care.</p>
-            <a href="#founder-access" class="mt-4 inline-flex items-center gap-1 text-sm text-primary font-medium group-hover:text-white transition-colors duration-300">
-              Learn more
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
-            </a>
-          </div>
-          <div class="rounded-[32px] bg-light p-8 group hover:bg-primary transition-colors duration-300">
-            <h3 class="font-heading text-lg text-dark font-medium group-hover:text-white transition-colors duration-300">IrisMapper Integration</h3>
-            <p class="mt-2 text-sm text-body leading-relaxed group-hover:text-white/70 transition-colors duration-300">Seamlessly connect your iridology practice with HealthDataLab's visual health mapping tools.</p>
-            <a href="#founder-access" class="mt-4 inline-flex items-center gap-1 text-sm text-primary font-medium group-hover:text-white transition-colors duration-300">
-              Learn more
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
-            </a>
-          </div>
         </div>
       </div>
     </div>
@@ -403,8 +405,62 @@
     </div>
   </section>
 
-  <!-- FOUNDING MEMBERS -->
+  <!-- CREDIBILITY -->
   <section class="bg-light">
+    <div class="max-w-[1280px] mx-auto px-5 md:px-[52px] py-24 md:py-32">
+      <div class="grid gap-5 md:grid-cols-2">
+        <!-- Left: Info -->
+        <div class="reveal-left rounded-[32px] bg-light p-8 md:p-12 flex flex-col justify-between">
+          <div>
+            <p class="text-primary text-sm font-medium">Who's Behind This</p>
+            <h2 class="mt-3 font-heading text-[clamp(1.75rem,3.5vw,2.25rem)] font-medium text-dark leading-[1.2] tracking-[-0.03em]">Built from 15 years of holistic health experience</h2>
+            <p class="mt-4 text-body leading-relaxed">From IRISLAB.com to Health Data Lab&nbsp;&mdash; two decades of building tools for natural health practitioners. We understand that every client is a unique tapestry of genetics, lifestyle, and health history.</p>
+          </div>
+          <div class="mt-10 flex items-end gap-6">
+            <div>
+              <p class="counter font-heading text-4xl font-semibold text-dark" data-target="20">0</p>
+              <p class="text-sm text-muted mt-1">Founder seats</p>
+            </div>
+            <div class="h-12 w-px bg-stroke"></div>
+            <div>
+              <p class="counter font-heading text-4xl font-semibold text-dark" data-target="2026">0</p>
+              <p class="text-sm text-muted mt-1">Launch year</p>
+            </div>
+          </div>
+        </div>
+        <!-- Right: feature list -->
+        <div class="reveal-right flex flex-col gap-5">
+          <div class="rounded-[32px] bg-light p-8 group hover:bg-primary transition-colors duration-300">
+            <h3 class="font-heading text-lg text-dark font-medium group-hover:text-white transition-colors duration-300">Consultation Management</h3>
+            <p class="mt-2 text-sm text-body leading-relaxed group-hover:text-white/70 transition-colors duration-300">Secure, efficient, and organised client consultations at your fingertips.</p>
+            <a href="#founder-access" class="mt-4 inline-flex items-center gap-1 text-sm text-primary font-medium group-hover:text-white transition-colors duration-300">
+              Learn more
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+            </a>
+          </div>
+          <div class="rounded-[32px] bg-light p-8 group hover:bg-primary transition-colors duration-300">
+            <h3 class="font-heading text-lg text-dark font-medium group-hover:text-white transition-colors duration-300">Practitioner Assistants</h3>
+            <p class="mt-2 text-sm text-body leading-relaxed group-hover:text-white/70 transition-colors duration-300">Your holistic expertise augmented with a virtual assistant designed to streamline communication and client care.</p>
+            <a href="#founder-access" class="mt-4 inline-flex items-center gap-1 text-sm text-primary font-medium group-hover:text-white transition-colors duration-300">
+              Learn more
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+            </a>
+          </div>
+          <div class="rounded-[32px] bg-light p-8 group hover:bg-primary transition-colors duration-300">
+            <h3 class="font-heading text-lg text-dark font-medium group-hover:text-white transition-colors duration-300">IrisMapper Integration</h3>
+            <p class="mt-2 text-sm text-body leading-relaxed group-hover:text-white/70 transition-colors duration-300">Seamlessly connect your iridology practice with HealthDataLab's visual health mapping tools.</p>
+            <a href="#founder-access" class="mt-4 inline-flex items-center gap-1 text-sm text-primary font-medium group-hover:text-white transition-colors duration-300">
+              Learn more
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDING MEMBERS -->
+  <section class="bg-surface">
     <div class="max-w-[1280px] mx-auto px-5 md:px-[52px] py-24 md:py-32">
       <div class="reveal text-center max-w-2xl mx-auto">
         <p class="text-primary text-sm font-medium">Founding Cohort</p>
@@ -412,21 +468,21 @@
         <p class="mt-4 text-body leading-relaxed">We're onboarding our first 20 practitioners with hands-on support and pricing that won't change.</p>
       </div>
       <div class="mt-14 grid gap-5 md:grid-cols-3">
-        <div class="reveal-scale reveal-delay-1 rounded-[32px] bg-surface p-8 md:p-10">
+        <div class="reveal-scale reveal-delay-1 rounded-[32px] bg-light p-8 md:p-10">
           <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/8 text-primary">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"/></svg>
           </div>
           <h3 class="mt-5 font-heading text-lg text-dark font-medium">Personal onboarding</h3>
           <p class="mt-2 text-sm text-body leading-relaxed">No generic sign-up flow. We'll set things up together and make sure you're comfortable before your first client uses it.</p>
         </div>
-        <div class="reveal-scale reveal-delay-2 rounded-[32px] bg-surface p-8 md:p-10">
+        <div class="reveal-scale reveal-delay-2 rounded-[32px] bg-light p-8 md:p-10">
           <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/8 text-primary">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"/></svg>
           </div>
           <h3 class="mt-5 font-heading text-lg text-dark font-medium">Shape the product</h3>
           <p class="mt-2 text-sm text-body leading-relaxed">Your feedback goes directly to the people building this. You'll help us get the details right for practitioners like you.</p>
         </div>
-        <div class="reveal-scale reveal-delay-3 rounded-[32px] bg-surface p-8 md:p-10">
+        <div class="reveal-scale reveal-delay-3 rounded-[32px] bg-light p-8 md:p-10">
           <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/8 text-primary">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z"/></svg>
           </div>
