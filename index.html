@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Health Data Lab — Visual health insights for holistic practitioners</title>
+  <title>HealthDataLab — Visual health insights for holistic practitioners</title>
   <meta name="description" content="Invite clients to complete a quick health form. Instantly receive a visual PDF report packed with insights — so you can prepare with confidence. Limited to 20 founding practitioners.">
-  <meta property="og:title" content="Health Data Lab — Visual health insights for holistic practitioners">
+  <meta property="og:title" content="HealthDataLab — Visual health insights for holistic practitioners">
   <meta property="og:description" content="Visual health insights — before your client walks through the door. Quick health forms, instant PDF reports, client tracking.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://healthdatalab.com">
@@ -102,7 +102,7 @@
   <nav id="nav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
     <div class="max-w-[1280px] mx-auto px-5 md:px-[52px]">
       <div id="nav-inner" class="flex items-center justify-between rounded-[48px] px-5 py-3 mt-3 transition-all duration-300">
-        <a href="#" class="font-heading text-lg font-semibold text-dark tracking-tight select-none">Health Data Lab</a>
+        <a href="#" class="font-heading text-lg font-semibold text-dark tracking-tight select-none">HealthDataLab</a>
         <div class="hidden md:flex items-center gap-6">
           <a href="#platform" class="text-sm text-body hover:text-dark transition-colors">For Practitioners</a>
           <a href="#how-it-works" class="text-sm text-body hover:text-dark transition-colors">How It Works</a>
@@ -194,47 +194,17 @@
           <p class="mt-4 text-body leading-relaxed">The polar chart gives you and your client an instant picture of their health. Low scores stand out immediately, so you know where to focus — and over time, you can track real improvement.</p>
           <div class="mt-8 flex items-center gap-6">
             <span class="flex items-center gap-2 text-sm text-muted">
-              <span class="inline-block h-3 w-3 rounded-full border border-muted/60 bg-muted/15"></span>
-              Initial assessment
+              <span class="inline-block h-3 w-3 rounded-full" style="background:rgba(205,133,133,0.4);border:1px solid #cd8585"></span>
+              Areas to improve
             </span>
             <span class="flex items-center gap-2 text-sm text-dark">
-              <span class="inline-block h-3 w-3 rounded-full border border-primary bg-primary/15"></span>
-              After 3 months
+              <span class="inline-block h-3 w-3 rounded-full" style="background:rgba(110,148,180,0.4);border:1px solid #6e94b4"></span>
+              Strong scores
             </span>
           </div>
         </div>
         <div class="reveal-right flex justify-center">
-          <svg viewBox="0 0 300 300" class="w-full max-w-[280px]">
-            <!-- Grid hexagons -->
-            <polygon points="150,95 198,123 198,178 150,205 102,178 102,123" fill="none" stroke="#e5e7eb" stroke-width="0.5"/>
-            <polygon points="150,68 221,109 221,191 150,233 79,191 79,109" fill="none" stroke="#e5e7eb" stroke-width="0.5"/>
-            <polygon points="150,40 245,95 245,205 150,260 55,205 55,95" fill="none" stroke="#e5e7eb" stroke-width="0.75"/>
-            <!-- Axes -->
-            <line x1="150" y1="150" x2="150" y2="40" stroke="#e5e7eb" stroke-width="0.5"/>
-            <line x1="150" y1="150" x2="245" y2="95" stroke="#e5e7eb" stroke-width="0.5"/>
-            <line x1="150" y1="150" x2="245" y2="205" stroke="#e5e7eb" stroke-width="0.5"/>
-            <line x1="150" y1="150" x2="150" y2="260" stroke="#e5e7eb" stroke-width="0.5"/>
-            <line x1="150" y1="150" x2="55" y2="205" stroke="#e5e7eb" stroke-width="0.5"/>
-            <line x1="150" y1="150" x2="55" y2="95" stroke="#e5e7eb" stroke-width="0.5"/>
-            <!-- Before data (muted, dashed) -->
-            <polygon points="150,117 174,136 193,175 150,172 117,169 112,128" fill="rgba(160,160,160,0.06)" stroke="#a0a0a0" stroke-width="1" stroke-dasharray="4 2"/>
-            <!-- After data (primary, solid) -->
-            <polygon points="150,64 219,110 231,197 150,227 74,194 79,109" fill="rgba(0,104,255,0.06)" stroke="#0068ff" stroke-width="1.5" stroke-linejoin="round"/>
-            <!-- After data points -->
-            <circle cx="150" cy="64" r="3" fill="#0068ff"/>
-            <circle cx="219" cy="110" r="3" fill="#0068ff"/>
-            <circle cx="231" cy="197" r="3" fill="#0068ff"/>
-            <circle cx="150" cy="227" r="3" fill="#0068ff"/>
-            <circle cx="74" cy="194" r="3" fill="#0068ff"/>
-            <circle cx="79" cy="109" r="3" fill="#0068ff"/>
-            <!-- Labels -->
-            <text x="150" y="28" text-anchor="middle" fill="#595959" font-size="11" font-family="Inter,sans-serif">Energy</text>
-            <text x="256" y="93" text-anchor="start" fill="#595959" font-size="11" font-family="Inter,sans-serif">Sleep</text>
-            <text x="256" y="211" text-anchor="start" fill="#595959" font-size="11" font-family="Inter,sans-serif">Digestion</text>
-            <text x="150" y="280" text-anchor="middle" fill="#595959" font-size="11" font-family="Inter,sans-serif">Stress</text>
-            <text x="44" y="211" text-anchor="end" fill="#595959" font-size="11" font-family="Inter,sans-serif">Nutrition</text>
-            <text x="44" y="93" text-anchor="end" fill="#595959" font-size="11" font-family="Inter,sans-serif">Hydration</text>
-          </svg>
+          <img src="assets/images/health-radar-chart.png" alt="Health Assessment Radar Chart showing client health metrics across 20+ categories" class="w-full max-w-md rounded-2xl" loading="lazy">
         </div>
       </div>
     </div>
@@ -244,7 +214,7 @@
   <section id="platform" class="scroll-mt-20 bg-surface">
     <div class="max-w-[1280px] mx-auto px-5 md:px-[52px] py-24 md:py-32">
       <div class="reveal max-w-2xl">
-        <p class="text-primary text-sm font-medium">Health Data Lab</p>
+        <p class="text-primary text-sm font-medium">HealthDataLab</p>
         <h2 class="mt-3 font-heading text-[clamp(1.75rem,3.5vw,2.5rem)] font-medium text-dark leading-[1.2] tracking-[-0.03em]">Everything your practice needs, in one place</h2>
         <p class="mt-4 text-body leading-relaxed">Our platform gives practitioners structured tools to manage client health data, generate professional reports, and track outcomes over time.</p>
       </div>
@@ -281,7 +251,7 @@
   <section id="how-it-works" class="scroll-mt-20 bg-light">
     <div class="max-w-[1280px] mx-auto px-5 md:px-[52px] py-24 md:py-32">
       <div class="reveal text-center max-w-2xl mx-auto">
-        <p class="text-primary text-sm font-medium">Health Data Lab</p>
+        <p class="text-primary text-sm font-medium">HealthDataLab</p>
         <h2 class="mt-3 font-heading text-[clamp(1.75rem,3.5vw,2.5rem)] font-medium text-dark leading-[1.2] tracking-[-0.03em]">Three steps to better outcomes</h2>
         <p class="mt-4 text-body leading-relaxed">Simple onboarding. Clear reports. Continuous progress tracking.</p>
       </div>
@@ -322,7 +292,7 @@
           <div class="px-7 py-5 border-b border-stroke/40">
             <div class="flex items-center justify-between">
               <div>
-                <p class="font-heading text-xs font-semibold text-dark tracking-tight">Health Data Lab</p>
+                <p class="font-heading text-xs font-semibold text-dark tracking-tight">HealthDataLab</p>
                 <p class="text-[10px] text-muted mt-0.5">Client Health Report</p>
               </div>
               <div class="h-6 w-6 rounded-full bg-primary/10 flex items-center justify-center">
@@ -388,7 +358,7 @@
     <div class="max-w-[1280px] mx-auto px-5 md:px-[52px] py-24 md:py-32">
       <div class="reveal text-center max-w-2xl mx-auto">
         <p class="text-primary text-sm font-medium">See It In Action</p>
-        <h2 class="mt-3 font-heading text-[clamp(1.75rem,3.5vw,2.5rem)] font-medium text-dark leading-[1.2] tracking-[-0.03em]">Watch Health Data Lab in practice</h2>
+        <h2 class="mt-3 font-heading text-[clamp(1.75rem,3.5vw,2.5rem)] font-medium text-dark leading-[1.2] tracking-[-0.03em]">Watch HealthDataLab in practice</h2>
         <p class="mt-4 text-body leading-relaxed">A walkthrough of the platform — from sending the health form to reviewing your client's visual report.</p>
       </div>
       <div class="mt-12 max-w-3xl mx-auto">
@@ -414,7 +384,7 @@
           <div>
             <p class="text-primary text-sm font-medium">Who's Behind This</p>
             <h2 class="mt-3 font-heading text-[clamp(1.75rem,3.5vw,2.25rem)] font-medium text-dark leading-[1.2] tracking-[-0.03em]">Built from 15 years of holistic health experience</h2>
-            <p class="mt-4 text-body leading-relaxed">From IRISLAB.com to Health Data Lab&nbsp;&mdash; two decades of building tools for natural health practitioners. We understand that every client is a unique tapestry of genetics, lifestyle, and health history.</p>
+            <p class="mt-4 text-body leading-relaxed">From IRISLAB.com to HealthDataLab&nbsp;&mdash; two decades of building tools for natural health practitioners. We understand that every client is a unique tapestry of genetics, lifestyle, and health history.</p>
           </div>
           <div class="mt-10 flex items-end gap-6">
             <div>
@@ -539,7 +509,7 @@
           <p class="mt-4 text-xs text-white/30">Only 20 seats &middot; No credit card required &middot; Cancel anytime</p>
         </div>
       </div>
-      <p class="reveal mt-10 text-center text-sm text-muted">Health Data Lab will also be available as part of a longevity course for practitioners.&ensp;<a href="mailto:hello@healthdatalab.com?subject=Longevity%20Course%20Interest" class="text-primary hover:text-primary-dark transition-colors">Ask us about it</a></p>
+      <p class="reveal mt-10 text-center text-sm text-muted">HealthDataLab will also be available as part of a longevity course for practitioners.&ensp;<a href="mailto:hello@healthdatalab.com?subject=Longevity%20Course%20Interest" class="text-primary hover:text-primary-dark transition-colors">Ask us about it</a></p>
     </div>
   </section>
 
@@ -548,7 +518,7 @@
     <div class="max-w-[1280px] mx-auto px-5 md:px-[52px] py-16 md:py-20">
       <div class="reveal grid gap-10 md:grid-cols-3">
         <div>
-          <p class="font-heading text-lg font-semibold tracking-tight">Health Data Lab</p>
+          <p class="font-heading text-lg font-semibold tracking-tight">HealthDataLab</p>
           <p class="mt-3 text-sm text-white/40 leading-relaxed">Built for holistic health practitioners.</p>
           <p class="mt-2 text-xs text-white/25">From the makers of IRISLAB.com</p>
           <a href="mailto:hello@healthdatalab.com" class="mt-4 inline-flex items-center gap-2 text-sm text-white/50 hover:text-white transition-colors">
@@ -573,7 +543,7 @@
         </div>
       </div>
       <div class="mt-14 border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-        <p class="text-xs text-white/30">&copy; 2026 Health Data Lab. All rights reserved.</p>
+        <p class="text-xs text-white/30">&copy; 2026 HealthDataLab. All rights reserved.</p>
         <p class="text-xs text-white/20">This is not a medical service.</p>
       </div>
     </div>
