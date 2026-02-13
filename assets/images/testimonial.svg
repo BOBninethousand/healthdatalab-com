@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <rect width="1200" height="360" rx="28" fill="#ffffff"/>
+  <rect x="24" y="24" width="1152" height="312" rx="24" fill="#f5f7fa"/>
+  <circle cx="124" cy="180" r="64" fill="#3d8da0" opacity="0.20"/>
+  <circle cx="124" cy="168" r="40" fill="#111" opacity="0.10"/>
+  <path d="M56 300c16-56 48-84 68-84s52 28 68 84" fill="#3d8da0" opacity="0.16"/>
+
+  <text x="220" y="140" font-family="Inter, system-ui" font-size="22" fill="#111" font-weight="600">Practitioner testimonial</text>
+  <text x="220" y="176" font-family="Inter, system-ui" font-size="16" fill="#475569">“This is where a short, punchy quote will go.”</text>
+  <text x="220" y="206" font-family="Inter, system-ui" font-size="16" fill="#475569">“Clarity in minutes — the report makes change obvious.”</text>
+  <text x="220" y="258" font-family="Inter, system-ui" font-size="14" fill="#64748b">Name • Specialty</text>
+</svg>
